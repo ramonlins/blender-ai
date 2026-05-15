@@ -42,13 +42,6 @@ git fetch upstream-blender
 git merge upstream-blender/main
 ```
 
-To sync MCP updates:
-```bash
-git fetch upstream-mcp
-git checkout upstream-mcp/main -- mcp/
-git commit -m "Sync mcp/ from upstream"
-```
-
 ## Binary Assets
 
 Binary assets (`.blend`, `.png`, textures, compiled libs) are excluded from git.
